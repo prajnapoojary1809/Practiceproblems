@@ -3,7 +3,7 @@ package Problem2;
 public class Anagram {
     public static void main(String[] args) {
         String string = "compiler";
-        String string1 = "";
+        String string1 = "picomrel";
         System.out.println("String and String1 are anagrams:" + checkForAnagram(string, string1));
     }
 

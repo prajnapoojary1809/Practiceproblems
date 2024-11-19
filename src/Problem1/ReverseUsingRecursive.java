@@ -7,7 +7,9 @@ public class ReverseUsingRecursive {
             return string;
         }else{
             System.out.println(string.charAt(string.length()-1));
+
             System.out.println(string.substring(0,string.length()-1));
+
             return string.charAt(string.length()-1)+reverseRecursive(string.substring(0,string.length()-1));
         }
     }
